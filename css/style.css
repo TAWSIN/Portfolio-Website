@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #F5F5F5;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.btn{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 25px;
+    color: white;
+    background: #5900FF;
+    border-radius:50px;
+    display: inline-block;
+}
+.btn:hover{
+  color: white;
+  background-color: darkgray;
+}
+.h-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+.h-main .h-left h2{
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 500;
+}
+.h-main .h-middle ul{
+    list-style-type: none;
+}
+.h-main .h-middle ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+.h-main .h-middle ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+}
+
+.banner{
+    padding: 70px 0px 0px 0px;
+}
+.b-start{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.b-left img{
+    width: 500px;
+}
+.b-right h2{
+    font-size: 96px;
+}
+
+.services{
+    background: #EEEEEE;
+    padding: 70px 0px;
+}
+.s-main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+}
+
+.s-card{
+    padding: 30px 40px;
+    text-align: center;
+    box-shadow:  rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 6px;
+}
+.s-card:hover{
+  color: white;
+  background-color: darkgray;
+}
+.s-card i{
+    color: #5900FF;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.s-card h3{
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.about {
+    background: #F5F5F5;
+    padding: 70px 0;
+}
+.about-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+}
+
+.a-left h2{
+    font-size: 60px;
+    font-weight: 500;
+}
+.a-left p{
+    margin: 20px 0px;
+}
+.about-main .a-right img{
+    width: 400px;
+    border-radius: 5px;
+}
+
+.gallary{
+    background: #EEEEEE;
+    padding: 70px;
+}
+.section-title h2{
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align:center;
+    margin-bottom: 30px;
+}
+.g-wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+.g-wrapper .g-child img{
+    width: 380px;
+    border-radius: 5px;
+}
+
+.footer{
+    padding: 50px 0 80px 0px;
+    background: black;
+    color: white;
+    text-align: center;
+}
+.footer .f-main h2{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+
+
